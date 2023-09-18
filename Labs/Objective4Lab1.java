@@ -11,6 +11,10 @@ public class Objective4Lab1 {
     String favoriteFood = "";
     String favoriteSong = "";
 
+  
+
+    //TODO prompt the user to get input for all of the String variables.
+
     System.out.println("What is your first name?");
     fname = keyboard.nextLine();
     
@@ -26,14 +30,13 @@ public class Objective4Lab1 {
     System.out.println("What is your favorite song?");
     favoriteSong = keyboard.nextLine();
 
+    
+
+    //TODO print the output formatted to look like the expected output using String concatenation.
+
     System.out.println("My name is " + fname + " " + lname + ".");
     System.out.println("My favorite animal is the " + favoriteAnimal + ".");
     System.out.println("My favorite food is " + favoriteFood + ".");
     System.out.println("My favorite song is " + favoriteSong + ".");
-
-    //TODO prompt the user to get input for all of the String variables.
-
-    //TODO print the output formatted to look like the expected output using String concatenation.
-
   }
 }
