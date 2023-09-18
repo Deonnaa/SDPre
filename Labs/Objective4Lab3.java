@@ -8,8 +8,8 @@ public class Objective4Lab3 {
     birthYear = (2023 - age);
 
     Scanner input = new Scanner(System.in);
-    System.out.println("How old are you?");
 
+    System.out.println("How old are you?");
     age = input.nextInt();
 
     /*
