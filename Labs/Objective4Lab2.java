@@ -8,6 +8,8 @@ public class Objective4Lab2 {
     int num1 = 0, num2 = 0, num3 = 0;
     double dub1 = 0.0, dub2 = 0.0, dub3 = 0.0;
 
+    
+
     //TODO prompt the user to get input for all of the above int variables.
 
     System.out.println("Please enter the first whole number you would like to add.");
@@ -43,6 +45,5 @@ public class Objective4Lab2 {
     //TODO print the three doubles and their sum. The sum of 1.1 + 2.2 + 3.3 = 6.6
 
     System.out.println("The sum of " + dub1 + " + " + dub2 + " + " + dub3 + " = " + (dub1+dub2+dub3));
-
   }
 }
