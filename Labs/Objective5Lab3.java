@@ -13,35 +13,10 @@ public class Objective5Lab3 {
         System.out.print("The number is negative" );
       }
 
-
-
-
-
-
-
-
-
-
-
-
-
       /*
         Your solution goes here
-        userNum = scanner.nextInt();
-
-        System.out.println("The number is " + );
       */
 
       scanner.close();
   }
 }
-
-
-
-
-
-
-
-Please enter a number:
-3
-The number is positive
