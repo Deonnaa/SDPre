@@ -1,6 +1,6 @@
 public class Objective6Lab1 {
   public static void main(String[] args) {
-    int month = 0;
+    int month = 1;
 
     switch (month) {
       case 1:
