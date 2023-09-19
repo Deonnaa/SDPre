@@ -19,9 +19,3 @@ public class Objective5Lab2 {
     
   }
 }
-
-
-
-
-Banana is not equivalent to Bacon
-Banana is equivalent to Banana
