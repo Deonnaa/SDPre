@@ -7,17 +7,16 @@ public class Objective5Lab3 {
       int userNum;
 
       System.out.println("Please enter a number: ");
-      userNum = scanner.nextInt();
-
-      if(userNum >= 0) {
-        System.out.println("The number is positive");
-      }
-      else {
-        System.out.print("The number is negative" );
-      }
 
       /*
-        Your solution goes here
+        userNum = scanner.nextInt();
+
+        if(userNum >= 0) {
+          System.out.println("The number is positive");
+          } 
+        else {
+          System.out.print("The number is negative" );
+          }
       */
 
       scanner.close();
