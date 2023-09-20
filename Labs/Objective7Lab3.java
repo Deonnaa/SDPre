@@ -7,13 +7,6 @@ public class Objective7Lab3 {
       counter = counter + 1;
       }
 
-    if(num % 2 == 0) {
-        System.out.println(counter + " is even");
-        } 
-    else {
-        System.out.print(counter + " is odd");
-        }
-
       /*
         Your solution goes here
       */
