@@ -4,7 +4,7 @@ public class Objective7Lab4 {
 		int counter = 0;
 		int sum = 0;
 
-		while (counter <= 20) {
+		while (counter <= 19) {
       	counter = counter + 1;
       	sum = counter + sum;
 		
