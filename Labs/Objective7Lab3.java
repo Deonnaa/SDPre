@@ -3,15 +3,17 @@ public class Objective7Lab3 {
     int counter = 1;
 
     while(counter <= 20) {
+      
     
-      if(num % 2 == 0) {
+    System.out.println(counter);
+    counter = counter + 1;
+
+    if(num % 2 == 0) {
         System.out.println(counter + " is even");
         } 
-      else {
+    else {
         System.out.print(counter + " is odd");
         }
-
-      counter = counter + 1;
 
       /*
         Your solution goes here
