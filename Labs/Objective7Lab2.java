@@ -5,12 +5,9 @@ public class Objective7Lab2 {
     while(counter <= 20) {
       
       /*
-      Your solution goes here
-      */
-
       System.out.println(counter);
-
       counter = counter + 1;
+      */
     }
   }
 }
