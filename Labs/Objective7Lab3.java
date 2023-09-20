@@ -3,10 +3,9 @@ public class Objective7Lab3 {
     int counter = 1;
 
     while(counter <= 20) {
-      
-    
-    System.out.println(counter);
-    counter = counter + 1;
+      System.out.println(counter);
+      counter = counter + 1;
+      }
 
     if(num % 2 == 0) {
         System.out.println(counter + " is even");
@@ -18,6 +17,6 @@ public class Objective7Lab3 {
       /*
         Your solution goes here
       */
-      }
+      
     }
 }
