@@ -15,6 +15,8 @@ public class Objective7Lab5 {
        
       selection = scanner.nextInt(); 
 
+      /*
+      Your solution goes here
       if (selection == 1) {
         System.out.println("Hello Human");
       } 
@@ -29,9 +31,6 @@ public class Objective7Lab5 {
         System.out.println("Invalid selection. Please choose 1, 2, or 3.");
       }
     }
-
-      /*
-      Your solution goes here
       */
 
     scanner.close();
