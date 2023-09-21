@@ -13,12 +13,11 @@ public class Objective7Lab5 {
       System.out.println();
 
       selection = scanner.nextInt();
-    }
 
     if(selection == 1) {
       System.out.println("Hello Human");
       } 
-    else if (selection == 2) {
+    if (selection == 2) {
       System.out.print("Apples, Bananas, Coconuts" );
       }
     else {
@@ -28,6 +27,7 @@ public class Objective7Lab5 {
       /*
       Your solution goes here
       */
+    }
 
     scanner.close();
   }
