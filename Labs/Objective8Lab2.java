@@ -1,4 +1,4 @@
-public class Objective8Lab1 {
+public class Objective8Lab2 {
   public static void main(String[] args) {
 
     int sum = 0;
