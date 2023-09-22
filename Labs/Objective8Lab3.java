@@ -2,15 +2,16 @@ public class Objective8Lab3 {
   public static void main(String[] args) {
     int counter = 1;
 
-    for (int i=1; i<=20; i--) {
-
+    for (int i=1; i<=20; i++) {
+      System.out.println(i);  
+      
       if (counter % 2 == 0) {
-        System.out.println(counter + " is even");
+        System.out.println(i + " is even");
         }
       else {
-        System.out.println(counter + " is odd");
+        System.out.println(i + " is odd");
         }
-    } 
+      } 
 
     /*
       Your solution goes here
