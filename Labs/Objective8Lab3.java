@@ -4,7 +4,7 @@ public class Objective8Lab3 {
 
     for (int i=1; i<=20; i++) {
       
-      if (counter % 2 == 0) {
+      if (i % 2 == 0) {
         System.out.println(i + " is even");
         }
       else {
