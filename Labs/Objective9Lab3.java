@@ -7,9 +7,6 @@ public class Objective9Lab3 {
 
     while(true){
 
-      printMenu();
-      selection = scanner.nextInt();
-
       /*
       Your solution goes here
       printMenu();
