@@ -3,7 +3,6 @@ public class Objective8Lab3 {
     int counter = 1;
 
     for (int i=1; i<=20; i++) {
-      System.out.println(i);  
       
       if (counter % 2 == 0) {
         System.out.println(i + " is even");
