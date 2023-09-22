@@ -1,14 +1,14 @@
 public class Objective8Lab3 {
   public static void main(String[] args) {
-    int counter = 1;
+    int counter = 20;
 
-    for (int i=20; i>=1; i--) {
+    for (int i=0; i<20; i++) {
 
-      if (i % 2 == 0){
-        System.out.println(i + " is even");
+      if (counter % 2 == 0){
+        System.out.println(counter + " is even");
         }
       else {
-        System.out.println(i + " is odd");
+        System.out.println(counter + " is odd");
         }
     } 
 
