@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ObjectiveLab3 {
+public class Objective9Lab3 {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     int selection;
