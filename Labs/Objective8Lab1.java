@@ -7,7 +7,7 @@ public class Objective8Lab1 {
       //}
 
     //TODO Write another for loop that will print the numbers 10 to 1.
-      for (int i=10; i<0; i-=1){
+      for (int i=10; i<10; i-=1){
       System.out.println(i);  
       }
   }
