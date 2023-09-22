@@ -10,8 +10,6 @@ public class Objective8Lab3 {
       else {
         System.out.println(counter + " is odd");
         }
-      
-      System.out.println(i);
     } 
 
     /*
