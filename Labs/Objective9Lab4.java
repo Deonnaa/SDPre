@@ -18,8 +18,8 @@ public class Objective9Lab4 {
   }
 
   public static double findAverage(double x, double y){
-    double sum = x + y;
-    return sum;
+    double average = (x + y) / 2;
+    return average;
   }
 
   /*
