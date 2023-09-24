@@ -39,16 +39,21 @@ public class Objective9Lab5 {
       * Solution for Part 3 goes here
       */
       
-      case '1':
-        findSum();
+      case 1:
+        answer = findSum(num1, num2);
+        System.out.println("The sum of " + num1 + " and " + num2 + " is " + answer);
         break;
-      case '2':
-        findAverage();
+      case 2:
+        answer = findAverage(num1, num2);
+        System.out.println("The average of " + num1 + " and " + num2 + " is " + answer);
         break;
-      case '3':
-        calcTax();
-      case '4':
+      case 3:
+        answer = calcTax(num1, num2);
+        System.out.println("The tax on the sum of " + num1 + " and " + num2 + " is " + answer);
+        break;
+      case 4:
         System.out.println("You've chosen to quit.");
+        keepGoing = false;
         break;  
       default:
         System.out.println("Invalid Entry."); 
