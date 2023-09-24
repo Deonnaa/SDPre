@@ -17,14 +17,12 @@ public class Objective9Lab4 {
 
   }
 
-  public static double findAverage(double x, double y){
-    double average = (x + y) / 2;
-    return average;
-  }
-
   /*
 
   Write/define the "findAverage" method here
+  public static double findAverage(double x, double y){
+    double average = (x + y) / 2;
+    return average;
   */
   
 }
