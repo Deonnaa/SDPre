@@ -69,8 +69,8 @@ public class Objective9Lab5 {
     System.out.println();
   }
 
-  public static double findSum(double x, double y) {
-    double sum = x + y;
+  public static double findSum(double num1, double num2) {
+    double sum = num1 + num2;
     return sum;
   }
   // Part 4:
@@ -80,8 +80,8 @@ public class Objective9Lab5 {
   /*
   * Solution for Part 4 goes here
   */
-  public static double findAverage(double x, double y) {
-    double average = (x + y) / 2;
+  public static double findAverage(double num1, double num2) {
+    double average = (num1 + num2) / 2;
     return average;
   }
 
@@ -93,8 +93,8 @@ public class Objective9Lab5 {
   /*
   * Solution for Part 5 goes here
   */
-  public static double calcTax(double x, double y) {
-    double tax = (x + y) * .0831;
+  public static double calcTax(double num1, double num2) {
+    double tax = (num1 + num2) * .0831;
     return tax;
   }
 
