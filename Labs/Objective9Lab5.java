@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class Objective9Lab5 {
-
   public static void main(String[] args) {
     Scanner kb = new Scanner (System.in);
     double num1, num2;
@@ -38,7 +37,6 @@ public class Objective9Lab5 {
       /*
       * Solution for Part 3 goes here
       */
-      
       case 1:
         answer = findSum(num1, num2);
         System.out.println("The sum of " + num1 + " and " + num2 + " is " + answer);
@@ -57,12 +55,10 @@ public class Objective9Lab5 {
         break;  
       default:
         System.out.println("Invalid Entry."); 
-
+      }
     }
     kb.close();
-
   }
-
   public static void printMenu() {
     System.out.println();
     System.out.println("========= MENU =========");
@@ -75,7 +71,6 @@ public class Objective9Lab5 {
     System.out.println("========================");
     System.out.println();
   }
-
   public static double findSum(double x, double y) {
     double sum = x + y;
     return sum;
@@ -91,7 +86,6 @@ public class Objective9Lab5 {
     double average = (x + y) / 2;
     return average;
   }
-
   // Part 5:
   // Write a method named "calcTax" that also takes two doubles as parameters,
   // and returns a double that represents the amount of tax the user would have
@@ -104,5 +98,4 @@ public class Objective9Lab5 {
     double tax = (x + y) * .0831;
     return tax;
   }
-
 }
